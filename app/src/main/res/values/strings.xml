@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">CCT461FirstAssignment</string>
+    <string name="song_title1">Astro World</string>
+    <string name="artist1">Travis Scott</string>
+    <string name="play_button">Play</string>
+    <string name="pause_button">Pause</string>
+    <string name="previous_button">Previous</string>
+    <string name="next_button">Next</string>
+    <string name="album_art1">Astro World</string>
+
+</resources>

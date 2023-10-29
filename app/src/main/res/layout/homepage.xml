@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="407dp"
+        android:layout_height="76dp"
+        android:background="#2B2B2B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo" />
+
+    <ScrollView
+        android:layout_width="407dp"
+        android:layout_height="632dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnTravis"
+                    android:layout_width="155dp"
+                    android:layout_height="159dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00000000"
+                    app:srcCompat="@mipmap/travis_scott_album" />
+
+                <ImageButton
+                    android:id="@+id/btnDrake"
+                    android:layout_width="155dp"
+                    android:layout_height="159dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00000000"
+                    app:srcCompat="@mipmap/forallthedogs" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnBoogie"
+                    android:layout_width="155dp"
+                    android:layout_height="159dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00000000"
+                    app:srcCompat="@mipmap/boggiecover" />
+
+                <ImageButton
+                    android:id="@+id/btnTSwift"
+                    android:layout_width="155dp"
+                    android:layout_height="159dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00000000"
+                    app:srcCompat="@mipmap/tswiftcover" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnIllenium"
+                    android:layout_width="155dp"
+                    android:layout_height="159dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00000000"
+                    app:srcCompat="@mipmap/illenium" />
+
+                <ImageButton
+                    android:id="@+id/btnLilTjay"
+                    android:layout_width="155dp"
+                    android:layout_height="159dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00000000"
+                    app:srcCompat="@mipmap/liltjay" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnEdSheeran"
+                    android:layout_width="155dp"
+                    android:layout_height="159dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00000000"
+                    app:srcCompat="@mipmap/edsheeran" />
+
+                <ImageButton
+                    android:id="@+id/btnTravis7"
+                    android:layout_width="155dp"
+                    android:layout_height="159dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00000000"
+                    app:srcCompat="@mipmap/centralcee" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnBTS"
+                    android:layout_width="155dp"
+                    android:layout_height="159dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00000000"
+                    app:srcCompat="@mipmap/btscover1" />
+
+                <ImageButton
+                    android:id="@+id/btnLauv"
+                    android:layout_width="155dp"
+                    android:layout_height="159dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00000000"
+                    app:srcCompat="@mipmap/lauvcover" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
